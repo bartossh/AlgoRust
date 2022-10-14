@@ -37,4 +37,5 @@ mod tests {
             assert!(res == expected[i]);
         }
     }
+
 }
