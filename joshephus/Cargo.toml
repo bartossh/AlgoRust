@@ -9,3 +9,10 @@ edition = "2021"
 
 [lib]
 name = "joshephus"
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "lib_bench"
+harness = false
